@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EduMedia – Toutes vos ressources au même endroit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- En-tête et navigation (commun à toutes les pages) -->
+  <header class="topbar">
+    <a class="logo" href="#/accueil">Edu<b>Media</b></a>
+    <nav aria-label="Navigation principale">
+      <a href="#/matieres">Matières</a>
+      <a href="#/recherche">Recherche</a>
+      <a href="#/progression">Progression</a>
+      <button id="themeBtn" class="btn clair petit" type="button">☾ Sombre</button>
+      <a id="authLink" href="#/connexion">Connexion</a>
+    </nav>
+  </header>
+
+  <!-- Zone où script.js affiche la page demandée -->
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="footer">EduMedia – projet pédagogique HTML / CSS / JavaScript</footer>
+  <script src="script.js"></script>
+</body>
+</html>
