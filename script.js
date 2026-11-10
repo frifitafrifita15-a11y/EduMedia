@@ -96,7 +96,7 @@ function pageAccueil() {
         <a class="btn jaune" href="#/matieres">Commencer à réviser</a>
         <a class="btn clair" href="#/connexion">Créer un compte</a>
       </div>
-      <img src="images/accueil.svg" alt="Illustration d'un lecteur vidéo">
+      <img src="accueil.svg" alt="Illustration d'un lecteur vidéo">
     </section>
     <ul class="avantages">
       <li><b>${MATIERES.length} matières</b><br>${TOUS.length} cours, ${MATIERES.length} quiz</li>
