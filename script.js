@@ -165,7 +165,7 @@ function pageCours(id) {
       <pre><code>${esc(c.code)}</code></pre>
       <img src="${m.image}" alt="Schéma de ${m.nom}" style="max-height:220px">
     </section>
-    <section class="carte panneau" data-panneau="1" hidden><video controls preload="metadata" poster="${m.image}" src="videos/tutoriel.mp4">Vidéo non supportée.</video></section>
+    <section class="carte panneau" data-panneau="1" hidden><video controls preload="metadata" poster="${m.image}" src="tutoriel.mp4">Vidéo non supportée.</video></section>
     <section class="carte panneau" data-panneau="2" hidden><p>Écoutez l'explication du cours :</p><audio controls preload="none" src="audio/explication.wav"></audio></section>
     <section class="carte panneau" data-panneau="3" hidden>
       <p>Animation : un paquet circule entre deux machines.</p>
