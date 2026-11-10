@@ -6,7 +6,7 @@
 
 /* ---------- 1. DONNÉES : 3 matières, 2 cours, 1 quiz (4 questions) ---------- */
 const MATIERES = [
-  { id: "reseaux", nom: "Réseaux", image: "images/reseaux.svg", description: "Modèle OSI, adressage IP, protocoles.",
+  { id: "reseaux", nom: "Réseaux", image: "reseaux.svg", description: "Modèle OSI, adressage IP, protocoles.",
     cours: [
       { id: "r1", titre: "Le modèle OSI", duree: 10, texte: [
           "Le modèle OSI découpe la communication réseau en 7 couches : physique, liaison, réseau, transport, session, présentation, application.",
@@ -22,7 +22,7 @@ const MATIERES = [
       { q: "Masque équivalent à /24 ?", choix: ["255.255.0.0", "255.255.255.0", "255.0.0.0"], rep: 1, expl: "24 bits à 1 = 255.255.255.0." },
       { q: "Quel protocole assure un transport fiable ?", choix: ["UDP", "ICMP", "TCP"], rep: 2, expl: "TCP établit une connexion et retransmet les paquets perdus." } ] },
 
-  { id: "systemes", nom: "Systèmes Linux", image: "images/systemes.svg", description: "Commandes, fichiers, processus, droits.",
+  { id: "systemes", nom: "Systèmes Linux", image: "systemes.svg", description: "Commandes, fichiers, processus, droits.",
     cours: [
       { id: "s1", titre: "Commandes Linux de base", duree: 8, texte: [
           "Le terminal permet de piloter le système avec des commandes. Savoir naviguer et manipuler des fichiers est la base de tout administrateur.",
@@ -38,7 +38,7 @@ const MATIERES = [
       { q: "Quelle commande arrête un processus ?", choix: ["stop", "kill", "end"], rep: 1, expl: "kill envoie un signal au processus (par son PID)." },
       { q: "Quelle valeur vaut le droit « écrire » ?", choix: ["1", "2", "4"], rep: 1, expl: "r = 4, w = 2, x = 1." } ] },
 
-  { id: "web", nom: "Développement web", image: "images/web.svg", description: "HTML, CSS, JavaScript et HTTP.",
+  { id: "web", nom: "Développement web", image: "web.svg", description: "HTML, CSS, JavaScript et HTTP.",
     cours: [
       { id: "w1", titre: "HTML et CSS", duree: 10, texte: [
           "HTML décrit la structure d'une page avec des balises. CSS décrit son apparence : couleurs, polices, mise en page.",
